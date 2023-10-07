@@ -1,0 +1,118 @@
+{
+    "packages": [
+        {
+            "name": "rakibdevs/mrz-parser",
+            "version": "v1.2.0",
+            "version_normalized": "1.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rakibdevs/mrz-parser.git",
+                "reference": "8dd5c35ade3c43458c873379ef5e78014102862a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rakibdevs/mrz-parser/zipball/8dd5c35ade3c43458c873379ef5e78014102862a",
+                "reference": "8dd5c35ade3c43458c873379ef5e78014102862a",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.0",
+                "pestphp/pest": "^1.20",
+                "spatie/ray": "^1.28"
+            },
+            "time": "2022-06-30T05:14:45+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Rakibdevs\\MrzParser\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Md. Rakibul Islam",
+                    "email": "rakib1708@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A PHP package for MRZ (Machine Readable Zones) code parser for Passport, Visa & Travel Documents.",
+            "homepage": "https://github.com/rakibdevs/mrz-parser",
+            "keywords": [
+                "mrz-parser",
+                "rakibdevs"
+            ],
+            "support": {
+                "issues": "https://github.com/rakibdevs/mrz-parser/issues",
+                "source": "https://github.com/rakibdevs/mrz-parser/tree/v1.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/rakibdevs",
+                    "type": "github"
+                }
+            ],
+            "install-path": "../rakibdevs/mrz-parser"
+        },
+        {
+            "name": "thiagoalessio/tesseract_ocr",
+            "version": "2.12.0",
+            "version_normalized": "2.12.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thiagoalessio/tesseract-ocr-for-php.git",
+                "reference": "0f10bd7b02bdcba59c4fbd98fbd93a56f93b09b7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thiagoalessio/tesseract-ocr-for-php/zipball/0f10bd7b02bdcba59c4fbd98fbd93a56f93b09b7",
+                "reference": "0f10bd7b02bdcba59c4fbd98fbd93a56f93b09b7",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3 || ^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/php-code-coverage": "^2.2.4 || ^9.0.0"
+            },
+            "time": "2021-06-04T21:21:33+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "thiagoalessio\\TesseractOCR\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "thiagoalessio",
+                    "email": "thiagoalessio@me.com"
+                }
+            ],
+            "description": "A wrapper to work with Tesseract OCR inside PHP.",
+            "keywords": [
+                "OCR",
+                "Tesseract",
+                "text recognition"
+            ],
+            "support": {
+                "irc": "irc://irc.freenode.net/tesseract-ocr-for-php",
+                "issues": "https://github.com/thiagoalessio/tesseract-ocr-for-php/issues",
+                "source": "https://github.com/thiagoalessio/tesseract-ocr-for-php"
+            },
+            "install-path": "../thiagoalessio/tesseract_ocr"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
